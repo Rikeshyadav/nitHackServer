@@ -20,7 +20,6 @@ router.post('/register',async (req,res,next)=>{
     user.username=username;
     user.college=college;
     user.password=password;
-    user.roll=roll;
     user.hostel=hostel;
     user.phone=phone;
     user.gender=gender;

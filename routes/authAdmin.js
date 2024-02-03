@@ -18,7 +18,6 @@ router.post('/auth',async (req,res,next)=>{
             username:user.username,
             college:user.college,
             gender:user.gender,
-            roll:user.roll,
             hostel:user.hostel,
             photo:user.photo,
             photoid:user.photoid

@@ -19,9 +19,6 @@ type:String
 college:{
     type:String
 },
-roll:{
-    type:String
-},
 hostel:{
     type:String
 },
