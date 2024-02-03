@@ -25,7 +25,7 @@ app.use('/api/admin',require('./routes/admin'));
 app.use('/api/faculity',require('./routes/authFaculity'));
 app.use('/api/guard',require('./routes/authGuard'));
 app.use('/api/student',require('./routes/authStudent'));
-
+app.use('/api/admin',require('./routes/authAdmin'));
 /* app.use('/api/patient',require('./routes/searchPatient'));
 app.use('/api/patient',require('./routes/patientDetails'));
 app.use('/api/doctor',require('./routes/doctorDetails'));
